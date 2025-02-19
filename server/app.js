@@ -3,8 +3,6 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 dotenv.config();
-import { handleClick } from './controllers/price.controllers.js';
-import { User } from './model/user.schema.js';
 import userRouter from './routes/user.routes.js';
 import clickRouter from './routes/click.routes.js';
 const app = express();
