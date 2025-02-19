@@ -1,3 +1,5 @@
+//user schema for storing in db the id score and prizes
+
 import mongoose from 'mongoose';
 
 const UserSchema = new mongoose.Schema({

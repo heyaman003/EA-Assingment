@@ -1,3 +1,5 @@
+//cliking routes for the user event handling
+
 import  express from 'express';
 import { handleClick } from '../controllers/price.controllers.js';
 const router=express.Router();

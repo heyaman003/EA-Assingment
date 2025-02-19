@@ -1,3 +1,4 @@
+// main logic for the handing the click event and setting the score and prize for the user
 import { User } from '../model/user.schema.js';
 
 export const handleClick = async (userId) => {
